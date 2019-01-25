@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHapi.Base", "nHapi.Base\NHapi.Base.csproj", "{5A080123-0597-46C3-AE78-2007EFB0DD68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelGenerator", "ModelGenerator\ModelGenerator.csproj", "{EBB8E9C9-7FF2-49C4-96EF-C5B87E4C2617}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHapi.NUnit.SourceGeneration", "NHapi.NUnit.SourceGeneration\NHapi.NUnit.SourceGeneration.csproj", "{7216E533-4B1E-476B-9E9A-0982F166FECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHapi.Tests", "NHapi.Tests\NHapi.Tests.csproj", "{8252D84D-20D9-4163-898C-C405C704A0C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHapi.NUnit", "NHapi.NUnit\NHapi.NUnit.csproj", "{7C7C99F0-672B-4DB1-A125-5ED7A3ADF95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHapi.Model.V21", "NHapi.Model.V21\NHapi.Model.V21.csproj", "{4B3417BA-0090-4FA0-B04B-BB19563FC11C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +33,23 @@ Global
 		{7216E533-4B1E-476B-9E9A-0982F166FECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7216E533-4B1E-476B-9E9A-0982F166FECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7216E533-4B1E-476B-9E9A-0982F166FECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8252D84D-20D9-4163-898C-C405C704A0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8252D84D-20D9-4163-898C-C405C704A0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8252D84D-20D9-4163-898C-C405C704A0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8252D84D-20D9-4163-898C-C405C704A0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7C99F0-672B-4DB1-A125-5ED7A3ADF95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7C99F0-672B-4DB1-A125-5ED7A3ADF95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7C99F0-672B-4DB1-A125-5ED7A3ADF95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7C99F0-672B-4DB1-A125-5ED7A3ADF95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3417BA-0090-4FA0-B04B-BB19563FC11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3417BA-0090-4FA0-B04B-BB19563FC11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3417BA-0090-4FA0-B04B-BB19563FC11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3417BA-0090-4FA0-B04B-BB19563FC11C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43AEB4A2-EEEF-48F7-B618-9DECBD4E9E01}
 	EndGlobalSection
 EndGlobal

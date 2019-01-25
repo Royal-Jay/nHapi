@@ -1,7 +1,7 @@
 properties {
     $projectName = "NHapi20"
     $unitTestAssembly = "NHapi.NUnit.dll"
-    $projectConfig = "Release"
+    $projectConfig = "Debug"
     $base_dir = resolve-path .\
     $test_dir = "$base_dir\NHapi.NUnit\bin\$projectConfig"
     $nunitPath = "$base_dir\packages\NUnit.Runners.2.6.4\tools"
@@ -16,7 +16,7 @@ Task Clean {
 
 Task Build -depends Clean {
 	Write-Host "Building Hl7Models.sln" -ForegroundColor Green
-	Exec { msbuild "Hl7Models.sln" /t:Build /p:Configuration=$projectConfig /v:quiet} 
+	Exec { msbuild "Hl7Models.sln" /t:Build /p:Configuration=$projectConfig /v:quiet}
 }
 
 Task BuildModels {
@@ -43,8 +43,9 @@ task Test {
 
 Task Package -depends Build {
 	Remove-Item ..\NuGet\*.dll
-	Copy-Item .\NHapi.NUnit\bin\Release\*.dll ..\NuGet
-    Copy-Item .\NHapi.NUnit\bin\Release\*.xml ..\NuGet
+	Copy-Item .\NHapi.NUnit\bin\Debug\*.dll ..\NuGet
+	Copy-Item .\NHapi.NUnit\bin\Debug\*.pdb ..\NuGet
+    Copy-Item .\NHapi.NUnit\bin\Debug\*.xml ..\NuGet
 	Exec { .nuget\nuget pack ..\NuGet\nHapi.v2.nuspec }
 }
 

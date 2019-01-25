@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -15,7 +15,7 @@
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -46,6 +46,7 @@
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -55,6 +56,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
@@ -105,11 +107,11 @@
       <Name>NHapi.Base</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V21\NHapi.Model.V21.csproj">
-      <Project>{4B3417BA-0090-4FA0-B04B-BB19563FC11C}</Project>
+      <Project>{4b3417ba-0090-4fa0-b04b-bb19563fc11c}</Project>
       <Name>NHapi.Model.V21</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V22\NHapi.Model.V22.csproj">
-      <Project>{2AAFDC25-B3DF-4493-94A5-144D60122FEC}</Project>
+      <Project>{2aafdc25-b3df-4493-94a5-144d60122fec}</Project>
       <Name>NHapi.Model.V22</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V22_ZSegments\NHapi.Model.V22_ZSegments.csproj">
@@ -117,15 +119,15 @@
       <Name>NHapi.Model.V22_ZSegments</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V231\NHapi.Model.V231.csproj">
-      <Project>{B8909698-59BA-453F-A4BC-2F4F2612F853}</Project>
+      <Project>{b8909698-59ba-453f-a4bc-2f4f2612f853}</Project>
       <Name>NHapi.Model.V231</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V23\NHapi.Model.V23.csproj">
-      <Project>{796D663F-E12D-45C2-92E6-8FD050558A86}</Project>
+      <Project>{796d663f-e12d-45c2-92e6-8fd050558a86}</Project>
       <Name>NHapi.Model.V23</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V24\NHapi.Model.V24.csproj">
-      <Project>{C5DE87CB-F026-4EB3-9CE8-5017BF3FB5CC}</Project>
+      <Project>{c5de87cb-f026-4eb3-9ce8-5017bf3fb5cc}</Project>
       <Name>NHapi.Model.V24</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V251\NHapi.Model.V251.csproj">
@@ -133,7 +135,7 @@
       <Name>NHapi.Model.V251</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V25\NHapi.Model.V25.csproj">
-      <Project>{BE6CDFAD-560E-44CC-B23B-87252DD4392C}</Project>
+      <Project>{be6cdfad-560e-44cc-b23b-87252dd4392c}</Project>
       <Name>NHapi.Model.V25</Name>
     </ProjectReference>
     <ProjectReference Include="..\NHapi.Model.V26\NHapi.Model.V26.csproj">
