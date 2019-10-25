@@ -777,6 +777,12 @@
     <Compile Include="Group\SIU_S12_PERSONNEL_RESOURCE.cs" />
     <Compile Include="Group\SIU_S12_RESOURCES.cs" />
     <Compile Include="Group\SIU_S12_SERVICE.cs" />
+    <Compile Include="Group\SIU_S26_GENERAL_RESOURCE.cs" />
+    <Compile Include="Group\SIU_S26_LOCATION_RESOURCE.cs" />
+    <Compile Include="Group\SIU_S26_PATIENT.cs" />
+    <Compile Include="Group\SIU_S26_PERSONNEL_RESOURCE.cs" />
+    <Compile Include="Group\SIU_S26_RESOURCES.cs" />
+    <Compile Include="Group\SIU_S26_SERVICE.cs" />
     <Compile Include="Group\SQM_S25_GENERAL_RESOURCE.cs" />
     <Compile Include="Group\SQM_S25_LOCATION_RESOURCE.cs" />
     <Compile Include="Group\SQM_S25_PERSONNEL_RESOURCE.cs" />
@@ -930,6 +936,7 @@
     <Compile Include="Message\ORU_R30.cs" />
     <Compile Include="Message\OSQ_Q06.cs" />
     <Compile Include="Message\OSR_Q06.cs" />
+    <Compile Include="Message\OSU_O51.cs" />
     <Compile Include="Message\OUL_R21.cs" />
     <Compile Include="Message\OUL_R22.cs" />
     <Compile Include="Message\OUL_R23.cs" />
@@ -1005,6 +1012,7 @@
     <Compile Include="Message\RTB_Knn.cs" />
     <Compile Include="Message\RTB_Z74.cs" />
     <Compile Include="Message\SIU_S12.cs" />
+    <Compile Include="Message\SIU_S26.cs" />
     <Compile Include="Message\SPQ_Q08.cs" />
     <Compile Include="Message\SQM_S25.cs" />
     <Compile Include="Message\SQR_S25.cs" />

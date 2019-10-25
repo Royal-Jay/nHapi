@@ -1,8 +1,8 @@
 using System;
 using NHapi.Base.Model;
 using NHapi.Base.Parser;
-using NHapi.Model.V21.Message;
 using NUnit.Framework;
+using ADT_A01 = NHapi.Model.V21.Message.ADT_A01;
 
 namespace NHapi.NUnit
 {
