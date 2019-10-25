@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>nHapi</id>
+        <version>2.5.0.6</version>
+        <authors>Chad Chenoweth, Duane Edwards</authors>
+        <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
+        <projectUrl>https://github.com/duaneedwards/nHapi</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>NHapi is a port of the original project HAPI.
+
+NHapi allows Microsoft .NET developers to easily use an HL7 2.x object model. This object model allows for parsing and encoding HL7 2.x data to/from Pipe Delimited or XML formats. A very handy program for use in the health care industry.
+
+This project is NOT affiliated with the HL7 organization. This software just conforms to the HL7 2.x specifications.</description>
+    </metadata>
+    <files>
+        <file src="NHapi20\NHapi.Base\bin\$configuration$\NHapi.Base.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V21\bin\$configuration$\NHapi.Model.V21.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V22\bin\$configuration$\NHapi.Model.V22.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V23\bin\$configuration$\NHapi.Model.V23.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V231\bin\$configuration$\NHapi.Model.V231.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V24\bin\$configuration$\NHapi.Model.V24.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V25\bin\$configuration$\NHapi.Model.V25.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V251\bin\$configuration$\NHapi.Model.V251.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V26\bin\$configuration$\NHapi.Model.V26.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V27\bin\$configuration$\NHapi.Model.V27.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V271\bin\$configuration$\NHapi.Model.V271.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V28\bin\$configuration$\NHapi.Model.V28.*" target="lib" />
+        <file src="NHapi20\NHapi.Model.V281\bin\$configuration$\NHapi.Model.V281.*" target="lib" />
+    </files>
+</package>

@@ -14,18 +14,18 @@ NHapi allows Microsoft .NET developers to easily use an HL7 2.x object model. Th
 This project is NOT affiliated with the HL7 organization. This software just conforms to the HL7 2.x specifications.</description>
     </metadata>
     <files>
-        <file src="..\NHapi20\NHapi.Base\bin\$configuration$\NHapi.Base.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V21\bin\$configuration$\NHapi.Model.V21.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V22\bin\$configuration$\NHapi.Model.V22.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V23\bin\$configuration$\NHapi.Model.V23.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V231\bin\$configuration$\NHapi.Model.V231.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V24\bin\$configuration$\NHapi.Model.V24.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V25\bin\$configuration$\NHapi.Model.V25.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V251\bin\$configuration$\NHapi.Model.V251.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V26\bin\$configuration$\NHapi.Model.V26.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V27\bin\$configuration$\NHapi.Model.V27.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V271\bin\$configuration$\NHapi.Model.V271.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V28\bin\$configuration$\NHapi.Model.V28.*" target="lib" />
-        <file src="..\NHapi20\NHapi.Model.V281\bin\$configuration$\NHapi.Model.V281.*" target="lib" />
+        <file src="NHapi.Base.*" target="lib" />
+        <file src="NHapi.Model.V21.*" target="lib" />
+        <file src="NHapi.Model.V22.*" target="lib" />
+        <file src="NHapi.Model.V23.*" target="lib" />
+        <file src="NHapi.Model.V231.*" target="lib" />
+        <file src="NHapi.Model.V24.*" target="lib" />
+        <file src="NHapi.Model.V25.*" target="lib" />
+        <file src="NHapi.Model.V251.*" target="lib" />
+        <file src="NHapi.Model.V26.*" target="lib" />
+        <file src="NHapi.Model.V27.*" target="lib" />
+        <file src="NHapi.Model.V271.*" target="lib" />
+        <file src="NHapi.Model.V28.*" target="lib" />
+        <file src="NHapi.Model.V281.*" target="lib" />
     </files>
 </package>
